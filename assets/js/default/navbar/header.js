@@ -33,7 +33,7 @@ $(function () {
 
             bar += '</div>';
 
-    $("#header").html(bar);
+    $("#header-top").html(bar);
 });
 
 function getValueByName(name) {

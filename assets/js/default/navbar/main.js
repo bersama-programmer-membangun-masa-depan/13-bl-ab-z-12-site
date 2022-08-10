@@ -12,11 +12,11 @@ $(function () {
         bar += '</div>';
     bar += '</section>';
 
-    $("#topbar").html(bar);
+    $("#topbar-home").html(bar);
 });
 
 function getValueByName(name) {
-    var url = document.getElementById('topbar').getAttribute('src');
+    var url = document.getElementById('blabz').getAttribute('src');
     var param = new Array();
     if (url.indexOf("?") != -1) {
         var source = url.split("?")[1];

@@ -47,6 +47,10 @@ h6 {
   font-family: var(--font-primary);
 }
 
+img {
+  pointer-events: none;
+}
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -1524,7 +1528,7 @@ section {
 
 .pricing h4 {
   font-size: 48px;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-weight: 700;
   font-family: var(--font-secondary);
   margin-bottom: 0;

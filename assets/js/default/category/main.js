@@ -1,34 +1,20 @@
 $(function () {
     var bar = '';
-    bar += '<div class="sidebar-item recent-posts">';
-        bar += '<h3 class="sidebar-title">Recent Posts</h3>';
-       
-        bar += '<div class="mt-3">';
-
-            bar += '<div class="post-item mt-3">';
-                bar += '<img src="/assets/img/blog/2022/dark-&-light-theme/zetachat.png" alt="Zetachat" class="flex-shrink-0">';
-                bar += '<div>';
-                    bar += '<h4><a href="/m/blog/2022/dark-&-light-theme/">Dark & Light Theme</a></h4>';
-                    bar += '<time datetime="2022-07-14">Kam, 14 Juli 2022</time>';
-                bar += '</div>';
-            bar += '</div>';<!-- End recent post item-->
-
-            bar += '<div class="post-item">';
-                bar += '<img src="/assets/img/blog/2022/voice-note-fix/zetachat.png" alt="Zetachat" class="flex-shrink-0">';
-                bar += '<div>';
-                    bar += '<h4><a href="/m/blog/2022/voice-note-fix/">Perbaikan Catatan Suara</a></h4>';
-                    bar += '<time datetime="2020-01-01">Jan 1, 2020</time>';
-                bar += '</div>';
-            bar += '</div>';<!-- End recent post item-->
-
-        bar += '</div>';
+    bar += '<div class="sidebar-item categories">';
+        bar += '<h3 class="sidebar-title">Category</h3>';
+        bar += '<ul class="mt-3">';
+            bar += '<li><a href="/m/category/popular/">Popular <span>(1)</span></a></li>';
+            bar += '<li><a href="/m/category/education/">Education <span>(1)</span></a></li>';
+            bar += '<li><a href="/">Business <span>(0)</span></a></li>';
+        bar += '</ul>';
     bar += '</div>';
 
-    $("#recent-posts").html(bar);
+
+    $("#categories-detail").html(bar);
 });
 
 function getValueByName(name) {
-    var url = document.getElementById('recent-posts').getAttribute('src');
+    var url = document.getElementById('categories').getAttribute('src');
     var param = new Array();
     if (url.indexOf("?") != -1) {
         var source = url.split("?")[1];
