@@ -23,11 +23,11 @@ var message_value = document.querySelector('.message');
 // check if user is logged in or not
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
-        if(window.location.pathname != '/'){
-            window.location = '/';
+        if(window.location.pathname != 'https://aplikasi-blabz-13-07-04-android.vercel.app/'){
+            window.location = 'https://aplikasi-blabz-13-07-04-android.vercel.app/';
         }
     } else {
-        if(window.location.pathname === '/'){
+        if(window.location.pathname === 'https://aplikasi-blabz-13-07-04-android.vercel.app/'){
             window.location = 'index.html';
         }
     }
@@ -72,7 +72,7 @@ if(window.location.pathname != '/'){
             confirmationResult.confirm(otp_number).then((result) => {
                 // User signed in successfully.
                 const user = result.user;
-                window.location = '/';
+                window.location = 'https://aplikasi-blabz-13-07-04-android.vercel.app/';
             }).catch((error) => {
                 showErrorMessage(error.message);
             });
