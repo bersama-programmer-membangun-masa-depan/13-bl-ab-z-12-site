@@ -43,7 +43,7 @@ $(function () {
                             bar += '</li>';
                         bar += '</ul>';
                     bar += '</li>';
-                    bar += '<li><a href="/m/contact/">Contact</a></li>';
+                    bar += '<li><a class="active" href="/m/contact/">Contact</a></li>';
                 bar += '</ul>';
             bar += '</nav>';
 

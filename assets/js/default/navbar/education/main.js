@@ -30,7 +30,7 @@ $(function () {
                     bar += '<li><a href="/m/category/popular/">Popular</a></li>';
                     bar += '<li><a href="/m/category/business/">Business</a></li>';
                     bar += '<li><a href="/m/category/marketing/">Marketing</a></li>';
-                    bar += '<li><a href="/m/category/education/">Educaion</a></li>';
+                    bar += '<li><a class="active" href="/m/category/education/">Educaion</a></li>';
                     bar += '<li class="dropdown"><a href="javascript:void(0)"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>';
                         bar += '<ul>';
                             bar += '<li><a href="/m/faq/">FAQ</a></li>';

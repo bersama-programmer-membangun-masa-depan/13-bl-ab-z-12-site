@@ -4,8 +4,9 @@ $(function () {
         bar += '<h3 class="sidebar-title">Category</h3>';
         bar += '<ul class="mt-3">';
             bar += '<li><a href="/m/category/popular/">Popular <span>(1)</span></a></li>';
-            bar += '<li><a href="/m/category/education/">Education <span>(1)</span></a></li>';
-            bar += '<li><a href="/">Business <span>(0)</span></a></li>';
+            bar += '<li><a href="/m/category/3d/">3D <span>(0)</span></a></li>';
+            bar += '<li><a href="/m/category/education/">Education <span>(0)</span></a></li>';
+            bar += '<li><a href="/m/category/business/">Business <span>(0)</span></a></li>';
         bar += '</ul>';
     bar += '</div>';
 

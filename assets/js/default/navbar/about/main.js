@@ -34,7 +34,7 @@ $(function () {
                     bar += '<li class="dropdown"><a href="javascript:void(0)"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>';
                         bar += '<ul>';
                             bar += '<li><a href="/m/faq/">FAQ</a></li>';
-                            bar += '<li><a href="/m/about/">About Us</a></li>';
+                            bar += '<li><a class="active" href="/m/about/">About Us</a></li>';
                             bar += '<li class="dropdown"><a href="javascript:void(0)"><span>Police</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>';
                                 bar += '<ul>';
                                     bar += '<li><a href="/m/police/">Privacy Police</a></li>';

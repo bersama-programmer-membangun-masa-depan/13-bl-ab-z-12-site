@@ -27,7 +27,7 @@ $(function () {
                 bar += '<ul>';
                     bar += '<li><a href="/">Home</a></li>';
                     bar += '<li><a href="/m/category/">Category</a></li>';
-                    bar += '<li><a href="/m/category/popular/">Popular</a></li>';
+                    bar += '<li><a class="active" href="/m/category/popular/">Popular</a></li>';
                     bar += '<li><a href="/m/category/business/">Business</a></li>';
                     bar += '<li><a href="/m/category/marketing/">Marketing</a></li>';
                     bar += '<li><a href="/m/category/education/">Educaion</a></li>';

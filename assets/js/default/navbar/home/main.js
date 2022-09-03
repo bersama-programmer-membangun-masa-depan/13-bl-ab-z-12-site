@@ -25,7 +25,7 @@ $(function () {
             bar += '<a href="/" class="logo d-flex align-items-center"><h1>Blabz</h1></a>';
             bar += '<nav id="navbar" class="navbar">';
                 bar += '<ul>';
-                    bar += '<li><a href="/">Home</a></li>';
+                    bar += '<li><a class="active" href="/">Home</a></li>';
                     bar += '<li><a href="/m/category/">Category</a></li>';
                     bar += '<li><a href="/m/category/popular/">Popular</a></li>';
                     bar += '<li><a href="/m/category/business/">Business</a></li>';
