@@ -35,11 +35,11 @@ $(function () {
                 bar += '<div class="col-lg-2 col-6 footer-links">';
                     bar += '<h4>Our Services</h4>';
                     bar += '<ul>';
-                        bar += '<li><a href="#">Web Design</a></li>';
-                        bar += '<li><a href="#">Web Development</a></li>';
-                        bar += '<li><a href="#">Product Management</a></li>';
-                        bar += '<li><a href="#">Marketing</a></li>';
-                        bar += '<li><a href="#">Graphic Design</a></li>';
+                        bar += '<li><a href="/m/category/popular/">Popular</a></li>';
+                        bar += '<li><a href="/m/category/education/">Education</a></li>';
+                        bar += '<li><a href="/m/category/busiiness/">Business</a></li>';
+                        bar += '<li><a href="/m/category/marketing/">Marketing</a></li>';
+                        bar += '<li><a href="/m/category/3d/">3D</a></li>';
                     bar += '</ul>';
                 bar += '</div>';
 
