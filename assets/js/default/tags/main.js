@@ -3,8 +3,8 @@ $(function () {
     bar += '<div class="sidebar-item tags">';
         bar += '<h3 class="sidebar-title">Tags</h3>';
         bar += '<ul class="mt-3">';
-            bar += '<li><a href="../../../popular/">Free</a></li>';
-            bar += '<li><a href="../../../education/">Premium</a></li>';
+            bar += '<li><a href="/m/category/popular/">Free</a></li>';
+            bar += '<li><a href="/m/category/premium/">Premium</a></li>';
         bar += '</ul>';
     bar += '</div>';
 
