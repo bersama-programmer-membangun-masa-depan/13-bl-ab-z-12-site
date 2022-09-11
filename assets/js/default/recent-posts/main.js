@@ -6,12 +6,11 @@ $(function () {
         bar += '<div class="mt-3">';
 
             bar += '<div class="post-item mt-3">';
-                bar += '<img src="/assets/img/theme/2022/3d/3d-pelajaran-matematika/blabz-s1.png" alt="Blabz" class="flex-shrink-0">';
+                bar += '<img src="/assets/img/theme/2022/post-instagram/creative-modern-chat-app/blabz.png" alt="Blabz" class="flex-shrink-0">';
                 bar += '<div>';
-                    bar += '<h4><a href="/theme/2022/3d/3d-pelajaran-matematika/">3D Pelajaran Matematika</a></h4>';
-                    bar += '<time datetime="2022-08-13">Agu 13, 2022</time>';
+                    bar += '<h4><a href="/theme/2022/post-instagram/creative-modern-chat-app/">Creative Modern Chat App</a></h4>';
+                    bar += '<time>Sep 11, 2022</time>';
                 bar += '</div>';
-                
             bar += '</div>';
             <!-- End recent post item-->
 
