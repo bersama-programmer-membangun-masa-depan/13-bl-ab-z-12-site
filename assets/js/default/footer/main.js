@@ -58,7 +58,7 @@ $(function () {
 
         bar += '<div class="container mt-4">';
             bar += '<div class="copyright">';
-                bar += '&copy; Copyright <strong><span>Blabz</span></strong>. All Rights Reserved';
+                bar += '&copy; <span id="copyright"></span> Copyright <strong><span>Blabz</span></strong>. All Rights Reserved';
             bar += '</div>';
         bar += '</div>';
 

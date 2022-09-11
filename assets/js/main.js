@@ -314,3 +314,8 @@ let calcScrollValue = () => {
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
 
+
+/**
+   * Copyright Year
+   */
+document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
