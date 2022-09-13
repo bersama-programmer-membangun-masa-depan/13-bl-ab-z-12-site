@@ -15,7 +15,7 @@ var firebaseConfig = {
   // to the counter DOM element
   const counter = document.getElementsByClassName("view")[0];
   
-  const counterRef = firebase.database().ref("Canva Unduh 3D Pelajaran Matematika");
+  const counterRef = firebase.database().ref("Canva Unduh Food Delivery Story Instagram");
   
   counterRef.on("value", count => {
   counter.textContent = count.val().toLocaleString().replaceAll(',', '.');
