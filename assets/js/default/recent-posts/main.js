@@ -5,6 +5,15 @@ $(function () {
        
         bar += '<div class="mt-3">';
 
+        bar += '<div class="post-item mt-3">';
+                bar += '<img src="/assets/img/theme/2022/education/presentasi-materi-pendidikan-ilustrasi/blabz-s1.png" alt="Blabz" class="flex-shrink-0">';
+                bar += '<div>';
+                    bar += '<h4><a href="/theme/2022/education/presentasi-materi-pendidikan-ilustrasi/">Presentasi Materi Pendidikan Ilustrasi</a></h4>';
+                    bar += '<time>Sep 16, 2022</time>';
+                bar += '</div>';
+            bar += '</div>';
+            <!-- End recent post item-->
+
             bar += '<div class="post-item mt-3">';
                 bar += '<img src="/assets/img/theme/2022/story-instagram/food-delivery-story-instagram/blabz.png" alt="Blabz" class="flex-shrink-0">';
                 bar += '<div>';
