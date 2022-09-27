@@ -6,9 +6,18 @@ $(function () {
         bar += '<div class="mt-3">';
 
             bar += '<div class="post-item mt-3">';
+                bar += '<img src="/assets/img/theme/2022/education/kindergarten-graduation/blabz-s1.png" alt="Blabz" class="flex-shrink-0">';
+                bar += '<div>';
+                    bar += '<h4><a href="/theme/education/kindergarten-graduation/">Kindergarten Graduation</a></h4>';
+                    bar += '<time>Sep 27, 2022</time>';
+                bar += '</div>';
+            bar += '</div>';
+            <!-- End recent post item-->
+    
+            bar += '<div class="post-item mt-3">';
                 bar += '<img src="/assets/img/theme/2022/anime/tokyo-comic-convention/blabz-s1.png" alt="Blabz" class="flex-shrink-0">';
                 bar += '<div>';
-                    bar += '<h4><a href="/theme/2022/anime/tokyo-comic-convention/">Tokyo Comic Convention</a></h4>';
+                    bar += '<h4><a href="/theme/anime/tokyo-comic-convention/">Tokyo Comic Convention</a></h4>';
                     bar += '<time>Sep 18, 2022</time>';
                 bar += '</div>';
             bar += '</div>';
@@ -17,7 +26,7 @@ $(function () {
             bar += '<div class="post-item mt-3">';
                 bar += '<img src="/assets/img/theme/2022/quiz/kuis-presentasi-playful-digital/blabz-s1.png" alt="Blabz" class="flex-shrink-0">';
                 bar += '<div>';
-                    bar += '<h4><a href="/theme/2022/quiz/kuis-presentasi-playful-digital/">Kuis Presentasi Playful Digital</a></h4>';
+                    bar += '<h4><a href="/theme/quiz/kuis-presentasi-playful-digital/">Kuis Presentasi Playful Digital</a></h4>';
                     bar += '<time>Sep 16, 2022</time>';
                 bar += '</div>';
             bar += '</div>';
@@ -26,7 +35,7 @@ $(function () {
             bar += '<div class="post-item mt-3">';
                 bar += '<img src="/assets/img/theme/2022/education/presentasi-materi-pendidikan-ilustrasi/blabz-s1.png" alt="Blabz" class="flex-shrink-0">';
                 bar += '<div>';
-                    bar += '<h4><a href="/theme/2022/education/presentasi-materi-pendidikan-ilustrasi/">Presentasi Materi Pendidikan Ilustrasi</a></h4>';
+                    bar += '<h4><a href="/theme/education/presentasi-materi-pendidikan-ilustrasi/">Presentasi Materi Pendidikan Ilustrasi</a></h4>';
                     bar += '<time>Sep 16, 2022</time>';
                 bar += '</div>';
             bar += '</div>';
